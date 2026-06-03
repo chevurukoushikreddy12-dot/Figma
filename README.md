@@ -34,509 +34,771 @@ Figma
 
 ## CODE:
 ```
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Infinity Arena 2026</title>
-
-<link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-
-<div class="container">
-
-    <h1 class="title">INFINITY ARENA 2026</h1>
-
-    <p class="subtitle">
-        Technical • Sports • Gaming Festival
-    </p>
-
-    <div class="events-section">
-
-        <div class="card">
-            <h2>💻 Technical Events</h2>
-            <ul>
-                <li>Coding Challenge</li>
-                <li>Web Design Contest</li>
-                <li>Hackathon</li>
-                <li>Technical Quiz</li>
-            </ul>
-        </div>
-
-        <div class="card">
-            <h2>⚽ Sports Events</h2>
-            <ul>
-                <li>Cricket</li>
-                <li>Football</li>
-                <li>Volleyball</li>
-                <li>Chess</li>
-            </ul>
-        </div>
-
-        <div class="card">
-            <h2>🎮 Gaming Events</h2>
-            <ul>
-                <li>BGMI</li>
-                <li>Valorant</li>
-                <li>Free Fire MAX</li>
-                <li>FIFA</li>
-            </ul>
-        </div>
-
-    </div>
-
-    <a href="registration.html" class="register-btn">
-        REGISTER NOW
-    </a>
-
+Home page-1
+<div class="container--0-">
+  
+  <svg
+    width="361"
+    height="79"
+    viewBox="0 0 361 79"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <g filter="url(#filter0_dd_1_71)">
+      <rect x="18" y="10" width="325" height="43" fill="#54FFE2"></rect>
+      <rect x="18.5" y="10.5" width="324" height="42" stroke="black"></rect>
+    </g>
+    <defs>
+      <filter
+        id="filter0_dd_1_71"
+        x="0"
+        y="0"
+        width="361"
+        height="79"
+        filterUnits="userSpaceOnUse"
+        color-interpolation-filters="sRGB"
+      >
+        <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+        <feColorMatrix
+          in="SourceAlpha"
+          type="matrix"
+          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+          result="hardAlpha"
+        ></feColorMatrix>
+        <feOffset dy="4"></feOffset>
+        <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+        <feColorMatrix
+          type="matrix"
+          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3 0"
+        ></feColorMatrix>
+        <feBlend
+          mode="normal"
+          in2="BackgroundImageFix"
+          result="effect1_dropShadow_1_71"
+        ></feBlend>
+        <feColorMatrix
+          in="SourceAlpha"
+          type="matrix"
+          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+          result="hardAlpha"
+        ></feColorMatrix>
+        <feMorphology
+          radius="6"
+          operator="dilate"
+          in="SourceAlpha"
+          result="effect2_dropShadow_1_71"
+        ></feMorphology>
+        <feOffset dy="8"></feOffset>
+        <feGaussianBlur stdDeviation="6"></feGaussianBlur>
+        <feColorMatrix
+          type="matrix"
+          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0"
+        ></feColorMatrix>
+        <feBlend
+          mode="normal"
+          in2="effect1_dropShadow_1_71"
+          result="effect2_dropShadow_1_71"
+        ></feBlend>
+        <feBlend
+          mode="normal"
+          in="SourceGraphic"
+          in2="effect2_dropShadow_1_71"
+          result="shape"
+        ></feBlend>
+      </filter>
+    </defs></svg>
+    <svg>
+    width="361"
+    height="79"
+    viewBox="0 0 361 79"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <g filter="url(#filter0_dd_1_80)">
+      <rect x="18" y="10" width="325" height="43" fill="#54FFE2"></rect>
+      <rect x="18.5" y="10.5" width="324" height="42" stroke="black"></rect>
+    </g>
+    <defs>
+      <filter
+        id="filter0_dd_1_80"
+        x="0"
+        y="0"
+        width="361"
+        height="79"
+        filterUnits="userSpaceOnUse"
+        color-interpolation-filters="sRGB"
+      >
+        <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+        <feColorMatrix
+          in="SourceAlpha"
+          type="matrix"
+          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+          result="hardAlpha"
+        ></feColorMatrix>
+        <feOffset dy="4"></feOffset>
+        <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+        <feColorMatrix
+          type="matrix"
+          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3 0"
+        ></feColorMatrix>
+        <feBlend
+          mode="normal"
+          in2="BackgroundImageFix"
+          result="effect1_dropShadow_1_80"
+        ></feBlend>
+        <feColorMatrix
+          in="SourceAlpha"
+          type="matrix"
+          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+          result="hardAlpha"
+        ></feColorMatrix>
+        <feMorphology
+          radius="6"
+          operator="dilate"
+          in="SourceAlpha"
+          result="effect2_dropShadow_1_80"
+        ></feMorphology>
+        <feOffset dy="8"></feOffset>
+        <feGaussianBlur stdDeviation="6"></feGaussianBlur>
+        <feColorMatrix
+          type="matrix"
+          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0"
+        ></feColorMatrix>
+        <feBlend
+          mode="normal"
+          in2="effect1_dropShadow_1_80"
+          result="effect2_dropShadow_1_80"
+        ></feBlend>
+        <feBlend
+          mode="normal"
+          in="SourceGraphic"
+          in2="effect2_dropShadow_1_80"
+          result="shape"
+        ></feBlend>
+      </filter>
+    </defs>
+  </svg>
+  <div class="text-0-1-4"></div>
+  <div class="text-0-1-5">LOGIN</div>
+  <div class="text-0-1-6">REGISTER</div>
+  <div class="text-0-1-7">CULTURAL EVENTS</div>
 </div>
-
-</body>
-</html>
-```
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Infinity Arena 2026 - Registration</title>
-
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-<div class="container">
-
-    <div class="form-card">
-
-        <h1>EVENT REGISTRATION</h1>
-
-        <form action="contact.html">
-
-            <input type="text" placeholder="Full Name" required>
-
-            <input type="text" placeholder="Register Number" required>
-
-            <input type="text" placeholder="Department" required>
-
-            <input type="number" placeholder="Age" required>
-
-            <input type="tel" placeholder="Mobile Number" required>
-
-            <input type="email" placeholder="Email ID" required>
-
-            <select required>
-                <option value="">Select Event</option>
-
-                <option>Coding Challenge</option>
-                <option>Web Design Contest</option>
-                <option>Hackathon</option>
-                <option>Technical Quiz</option>
-
-                <option>Cricket</option>
-                <option>Football</option>
-                <option>Volleyball</option>
-                <option>Chess</option>
-
-                <option>BGMI</option>
-                <option>Valorant</option>
-                <option>Free Fire MAX</option>
-                <option>FIFA</option>
-            </select>
-
-            <button type="submit">
-                REGISTER NOW
-            </button>
-
-        </form>
-
-    </div>
-
+// css for homepage-1
+.container--0- {
+  position: absolute;
+  left: 282px;
+  top: -483px;
+  width: 429px;
+  height: 952px;
+  background-color: #f9e7fa;
+  justify-content: start;
+  align-items: start;
+}
+.text-0-1-4 {
+  width: 326px;
+  height: 36px;
+  color: #000000;
+  font-size: 36px;
+  font-family: Roboto, "Regular";
+  font-weight: 400;
+  text-align: left;
+  vertical-align: top;
+}
+.text-0-1-5 {
+  width: 325px;
+  height: 35px;
+  color: #6a40e0;
+  font-size: 36px;
+  font-family: Roboto, "Regular";
+  font-weight: 400;
+  text-align: left;
+  vertical-align: top;
+}
+.text-0-1-6 {
+  width: 326px;
+  height: 38px;
+  font-size: 36px;
+  font-family: Roboto, "Regular";
+  font-weight: 400;
+  text-align: left;
+  vertical-align: top;
+}
+.text-0-1-7 {
+  width: 329px;
+  height: 54px;
+  color: #000000;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #000000;
+  box-shadow: 0px 4px 4px 0 #000000;
+  font-size: 36px;
+  font-family: Roboto, "Regular";
+  font-weight: 400;
+  text-align: left;
+  vertical-align: top;
+}
+page-2
+<div class="container--0-">
+ <svg
+    width="30"
+    height="31"
+    viewBox="0 0 30 31"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M15 0L18.3677 11.7467L29.2658 11.7467L20.4491 19.0066L23.8168 30.7533L15 23.4934L6.18322 30.7533L9.55093 19.0066L0.734152 11.7467L11.6323 11.7467L15 0Z"
+      fill="#161313"
+    ></path>
+  </svg>
+  <div class="text-0-1-2">SINGING<br /></div>
+  <svg
+    width="30"
+    height="31"
+    viewBox="0 0 30 31"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M15 0L18.3677 11.7467L29.2658 11.7467L20.4491 19.0066L23.8168 30.7533L15 23.4934L6.18322 30.7533L9.55093 19.0066L0.734152 11.7467L11.6323 11.7467L15 0Z"
+      fill="#221E1E"
+    ></path></svg
+  ><svg
+    width="30"
+    height="31"
+    viewBox="0 0 30 31"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M15 0L18.3677 11.7467L29.2658 11.7467L20.4491 19.0066L23.8168 30.7533L15 23.4934L6.18322 30.7533L9.55093 19.0066L0.734152 11.7467L11.6323 11.7467L15 0Z"
+      fill="#221B1B"
+    ></path>
+  </svg>
+  <div class="text-0-1-5">CULTURAL EVENTS<br /><br /></div>
+  <div class="text-0-1-6">DANCING</div>
+  <div class="text-0-1-7">PAINTING</div>
+  <svg
+    width="30"
+    height="31"
+    viewBox="0 0 30 31"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M15 0L18.3677 11.7467L29.2658 11.7467L20.4491 19.0066L23.8168 30.7533L15 23.4934L6.18322 30.7533L9.55093 19.0066L0.734152 11.7467L11.6323 11.7467L15 0Z"
+      fill="#151313"
+    ></path>
+  </svg>
+  <div class="text-0-1-9">RAMP WALK</div>
+  <svg
+    width="30"
+    height="31"
+    viewBox="0 0 30 31"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M15 0L18.3677 11.7467L29.2658 11.7467L20.4491 19.0066L23.8168 30.7533L15 23.4934L6.18322 30.7533L9.55093 19.0066L0.734152 11.7467L11.6323 11.7467L15 0Z"
+      fill="#131111"
+    ></path>
+  </svg>
+  <div class="text-0-1-11">FASHION SHOW</div>
+  <svg
+    width="30"
+    height="31"
+    viewBox="0 0 30 31"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M15 0L18.3677 11.7467L29.2658 11.7467L20.4491 19.0066L23.8168 30.7533L15 23.4934L6.18322 30.7533L9.55093 19.0066L0.734152 11.7467L11.6323 11.7467L15 0Z"
+      fill="#221F1F"
+    ></path>
+  </svg>
+  <div class="text-0-1-13">LIVE CONCERT</div>
 </div>
+// css for page-2
+.container--0- {
+  position: absolute;
+  left: 742px;
+  top: -483px;
+  width: 430px;
+  height: 952px;
+  background-color: #f6e8f4;
+  justify-content: start;
+  align-items: start;
+}
+.text-0-1-2 {
+  width: 287px;
+  height: 63px;
+  color: #0c676f;
+  font-size: 36px;
+  font-family: Roboto, "Regular";
+  font-weight: 400;
+  text-align: left;
+  vertical-align: top;
+}
+.text-0-1-5 {
+  width: 331px;
+  height: 87px;
+  color: #c014a3;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #000000;
+  backdrop-filter: blur(4px);
+  font-size: 36px;
+  font-family: Roboto, "Regular";
+  font-weight: 400;
+  text-align: left;
+  vertical-align: top;
+}
+.text-0-1-6 {
+  width: 211px;
+  height: 44px;
+  color: #0d756b;
+  font-size: 36px;
+  font-family: Roboto, "Regular";
+  font-weight: 400;
+  text-align: left;
+  vertical-align: top;
+}
+.text-0-1-7 {
+  width: 244px;
+  height: 49px;
+  color: #0b616e;
+  font-size: 36px;
+  font-family: Roboto, "Regular";
+  font-weight: 400;
+  text-align: left;
+  vertical-align: top;
+}
+.text-0-1-9 {
+  width: 219px;
+  height: 50px;
+  color: #0e6475;
+  font-size: 36px;
+  font-family: Roboto, "Regular";
+  font-weight: 400;
+  text-align: left;
+  vertical-align: top;
+}
+.text-0-1-11 {
+  width: 319px;
+  height: 37px;
+  color: #096e70;
+  font-size: 36px;
+  font-family: Roboto, "Regular";
+  font-weight: 400;
+  text-align: left;
+  vertical-align: top;
+}
+.text-0-1-13 {
+  width: 298px;
+  height: 44px;
+  color: #0e5c5a;
+  font-size: 36px;
+  font-family: Roboto, "Regular";
+  font-weight: 400;
+  text-align: left;
+  vertical-align: top;
+}
+page-3
 
-</body>
-</html>
+<div class="container--0-">
+  <div class="text-0-1-1">REGISTRATION FORM</div>
+  <svg
+    width="321"
+    height="49"
+    viewBox="0 0 321 49"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <g filter="url(#filter0_d_9_33)">
+      <rect x="4" width="313" height="41" fill="#F3D3D3"></rect>
+    </g>
+    <defs>
+      <filter
+        id="filter0_d_9_33"
+        x="0"
+        y="0"
+        width="321"
+        height="49"
+        filterUnits="userSpaceOnUse"
+        color-interpolation-filters="sRGB"
+      >
+        <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+        <feColorMatrix
+          in="SourceAlpha"
+          type="matrix"
+          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+          result="hardAlpha"
+        ></feColorMatrix>
+        <feOffset dy="4"></feOffset>
+        <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+        <feComposite in2="hardAlpha" operator="out"></feComposite>
+        <feColorMatrix
+          type="matrix"
+          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+        ></feColorMatrix>
+        <feBlend
+          mode="normal"
+          in2="BackgroundImageFix"
+          result="effect1_dropShadow_9_33"
+        ></feBlend>
+        <feBlend
+          mode="normal"
+          in="SourceGraphic"
+          in2="effect1_dropShadow_9_33"
+          result="shape"
+        ></feBlend>
+      </filter>
+    </defs></svg
+  ><svg
+    width="321"
+    height="49"
+    viewBox="0 0 321 49"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <g filter="url(#filter0_d_9_34)">
+      <path d="M4 0H317V41H4V0Z" fill="#EFCCCC"></path>
+    </g>
+    <defs>
+      <filter
+        id="filter0_d_9_34"
+        x="0"
+        y="0"
+        width="321"
+        height="49"
+        filterUnits="userSpaceOnUse"
+        color-interpolation-filters="sRGB"
+      >
+        <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+        <feColorMatrix
+          in="SourceAlpha"
+          type="matrix"
+          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+          result="hardAlpha"
+        ></feColorMatrix>
+        <feOffset dy="4"></feOffset>
+        <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+        <feComposite in2="hardAlpha" operator="out"></feComposite>
+        <feColorMatrix
+          type="matrix"
+          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+        ></feColorMatrix>
+        <feBlend
+          mode="normal"
+          in2="BackgroundImageFix"
+          result="effect1_dropShadow_9_34"
+        ></feBlend>
+        <feBlend
+          mode="normal"
+          in="SourceGraphic"
+          in2="effect1_dropShadow_9_34"
+          result="shape"
+        ></feBlend>
+      </filter>
+    </defs></svg
+  ><svg
+    width="321"
+    height="49"
+    viewBox="0 0 321 49"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <g filter="url(#filter0_d_9_36)">
+      <rect x="4" width="313" height="41" fill="#E7D3D3"></rect>
+    </g>
+    <defs>
+      <filter
+        id="filter0_d_9_36"
+        x="0"
+        y="0"
+        width="321"
+        height="49"
+        filterUnits="userSpaceOnUse"
+        color-interpolation-filters="sRGB"
+      >
+        <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+        <feColorMatrix
+          in="SourceAlpha"
+          type="matrix"
+          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+          result="hardAlpha"
+        ></feColorMatrix>
+        <feOffset dy="4"></feOffset>
+        <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+        <feComposite in2="hardAlpha" operator="out"></feComposite>
+        <feColorMatrix
+          type="matrix"
+          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+        ></feColorMatrix>
+        <feBlend
+          mode="normal"
+          in2="BackgroundImageFix"
+          result="effect1_dropShadow_9_36"
+        ></feBlend>
+        <feBlend
+          mode="normal"
+          in="SourceGraphic"
+          in2="effect1_dropShadow_9_36"
+          result="shape"
+        ></feBlend>
+      </filter>
+    </defs></svg
+  ><svg
+    width="321"
+    height="49"
+    viewBox="0 0 321 49"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <g filter="url(#filter0_d_9_37)">
+      <rect x="4" width="313" height="41" fill="#EBCACA"></rect>
+    </g>
+    <defs>
+      <filter
+        id="filter0_d_9_37"
+        x="0"
+        y="0"
+        width="321"
+        height="49"
+        filterUnits="userSpaceOnUse"
+        color-interpolation-filters="sRGB"
+      >
+        <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+        <feColorMatrix
+          in="SourceAlpha"
+          type="matrix"
+          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+          result="hardAlpha"
+        ></feColorMatrix>
+        <feOffset dy="4"></feOffset>
+        <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+        <feComposite in2="hardAlpha" operator="out"></feComposite>
+        <feColorMatrix
+          type="matrix"
+          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+        ></feColorMatrix>
+        <feBlend
+          mode="normal"
+          in2="BackgroundImageFix"
+          result="effect1_dropShadow_9_37"
+        ></feBlend>
+        <feBlend
+          mode="normal"
+          in="SourceGraphic"
+          in2="effect1_dropShadow_9_37"
+          result="shape"
+        ></feBlend>
+      </filter>
+    </defs></svg
+  ><svg
+    width="313"
+    height="41"
+    viewBox="0 0 313 41"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect width="313" height="41" fill="#F0D4D4"></rect>
+  </svg>
+  <div class="text-0-1-7">Type of event</div>
+  <div class="text-0-1-8">Name</div>
+  <div class="text-0-1-9">Department</div>
+  <div class="text-0-1-10">Mobile number</div>
+  <div class="text-0-1-11">Date of event</div>
+  <svg
+    width="372"
+    height="110"
+    viewBox="0 0 372 110"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <g filter="url(#filter0_f_9_50)">
+      <rect x="5" y="5" width="362" height="100" fill="#DDA1A2"></rect>
+      <rect x="5" y="5" width="362" height="100" stroke="black"></rect>
+    </g>
+    <defs>
+      <filter
+        id="filter0_f_9_50"
+        x="0.5"
+        y="0.5"
+        width="371"
+        height="109"
+        filterUnits="userSpaceOnUse"
+        color-interpolation-filters="sRGB"
+      >
+        <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+        <feBlend
+          mode="normal"
+          in="SourceGraphic"
+          in2="BackgroundImageFix"
+          result="shape"
+        ></feBlend>
+        <feGaussianBlur
+          stdDeviation="2"
+          result="effect1_foregroundBlur_9_50"
+        ></feGaussianBlur>
+      </filter>
+    </defs>
+  </svg>
+  <div class="text-0-1-13">SUBMIT</div>
+</div>
+// css for page-3
+.container--0- {
+  position: absolute;
+  left: 1211px;
+  top: -483px;
+  width: 430px;
+  height: 952px;
+  background-color: #fae8fa;
+  justify-content: start;
+  align-items: start;
+}
+.text-0-1-1 {
+  width: 405px;
+  height: 66px;
+  color: #45279e;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #000000;
+  box-shadow: 0px 4px 4px 0 #000000;
+  font-size: 36px;
+  font-family: Roboto, "Regular";
+  font-weight: 400;
+  text-align: left;
+  vertical-align: top;
+}
+.text-0-1-7 {
+  width: 310px;
+  height: 38px;
+  color: #000000;
+  font-size: 36px;
+  font-family: Roboto, "Regular";
+  font-weight: 400;
+  text-align: left;
+  vertical-align: top;
+}
+.text-0-1-8 {
+  width: 313px;
+  height: 48px;
+  color: #000000;
+  font-size: 36px;
+  font-family: Roboto, "Regular";
+  font-weight: 400;
+  text-align: left;
+  vertical-align: top;
+}
+.text-0-1-9 {
+  width: 314px;
+  height: 38px;
+  color: #000000;
+  font-size: 36px;
+  font-family: Roboto, "Regular";
+  font-weight: 400;
+  text-align: left;
+  vertical-align: top;
+}
+.text-0-1-10 {
+  width: 310px;
+  height: 32px;
+  color: #000000;
+  font-size: 36px;
+  font-family: Roboto, "Regular";
+  font-weight: 400;
+  text-align: left;
+  vertical-align: top;
+}
+.text-0-1-11 {
+  width: 310px;
+  height: 35px;
+  color: #000000;
+  font-size: 36px;
+  font-family: Roboto, "Regular";
+  font-weight: 400;
+  text-align: left;
+  vertical-align: top;
+}
+.text-0-1-13 {
+  width: 365px;
+  height: 97px;
+  color: #dd3f33;
+  font-size: 64px;
+  font-family: Roboto, "Regular";
+  font-weight: 400;
+  text-align: left;
+  vertical-align: top;
+}
+
+Page-4
+
+<div class="container--0-">
+  />
+  <div class="text-0-1-1">VENUE</div>
+  <div class="text-0-1-2">1st floor,Saveetha engineering college,Thandalam</div>
+  <div class="text-0-1-3">Thank you!</div>
+</div>
+// css for page-4
+
+.container--0- {
+  position: absolute;
+  left: 1681px;
+  top: -472px;
+  width: 429px;
+  height: 952px;
+  background-color: #f2dff2;
+  justify-content: start;
+  align-items: start;
+}
+.text-0-1-1 {
+  width: 253px;
+  height: 51px;
+  color: #ca8585;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #000000;
+  backdrop-filter: blur(4px);
+  font-size: 64px;
+  font-family: Roboto, "Regular";
+  font-weight: 400;
+  text-align: left;
+  vertical-align: top;
+}
+.text-0-1-2 {
+  width: 399px;
+  height: 257px;
+  color: #000000;
+  font-size: 36px;
+  font-family: Roboto, "Regular";
+  font-weight: 400;
+  text-align: left;
+  vertical-align: top;
+}
+.text-0-1-3 {
+  width: 338px;
+  height: 72px;
+  color: #1ec3cc;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #000000;
+  box-shadow: 0px 4px 4px 0 #000000;
+  font-size: 64px;
+  font-family: Roboto, "Regular";
+  font-weight: 400;
+  text-align: left;
+  vertical-align: top;
+}
 ```
-```css
-/* =========================
-   RESET
-========================= */
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
-
-/* =========================
-   BODY
-========================= */
-
-body{
-    min-height:100vh;
-
-    background:
-    linear-gradient(
-        rgba(0,0,0,0.75),
-        rgba(0,0,0,0.75)
-    ),
-    url("images/background.jpg");
-
-    background-size:cover;
-    background-position:center;
-    background-repeat:no-repeat;
-    background-attachment:fixed;
-
-    font-family:'Cinzel', serif;
-
-    display:flex;
-    justify-content:center;
-    align-items:center;
-
-    overflow-x:hidden;
-}
-
-/* =========================
-   CONTAINER
-========================= */
-
-.container{
-    width:95%;
-    max-width:1200px;
-
-    text-align:center;
-
-    animation:fadeIn 1.2s ease;
-}
-
-/* =========================
-   TITLE
-========================= */
-
-.title,
-.college h1{
-    color:#FFD700;
-
-    font-size:60px;
-    font-weight:700;
-
-    text-shadow:
-        0 0 10px gold,
-        0 0 20px gold,
-        0 0 40px gold;
-
-    animation:glow 2s infinite alternate;
-}
-
-.subtitle{
-    color:white;
-    font-size:20px;
-    margin-top:10px;
-    margin-bottom:40px;
-}
-
-/* =========================
-   EVENT CARDS
-========================= */
-
-.events-section{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:center;
-    gap:25px;
-}
-
-.card{
-    width:300px;
-
-    background:rgba(255,255,255,0.08);
-
-    backdrop-filter:blur(12px);
-
-    border:1px solid rgba(255,215,0,0.5);
-
-    border-radius:20px;
-
-    padding:25px;
-
-    color:white;
-
-    transition:0.4s;
-
-    animation:float 4s ease-in-out infinite;
-}
-
-.card:hover{
-    transform:translateY(-10px);
-
-    box-shadow:
-        0 0 25px gold,
-        0 0 50px rgba(255,215,0,0.5);
-}
-
-.card h2{
-    color:#FFD700;
-    margin-bottom:20px;
-}
-
-.card ul{
-    list-style:none;
-}
-
-.card li{
-    margin:12px 0;
-    font-size:16px;
-}
-
-/* =========================
-   FORM CARD
-========================= */
-
-.form-card{
-    width:100%;
-    max-width:450px;
-
-    margin:auto;
-
-    background:rgba(255,255,255,0.08);
-
-    backdrop-filter:blur(12px);
-
-    border:1px solid rgba(255,215,0,0.5);
-
-    border-radius:20px;
-
-    padding:30px;
-
-    box-shadow:
-        0 0 20px rgba(255,215,0,0.2);
-}
-
-.form-card h1{
-    color:#FFD700;
-    margin-bottom:25px;
-}
-
-.form-card input,
-.form-card select{
-    width:100%;
-
-    padding:14px;
-
-    margin-bottom:15px;
-
-    border:1px solid rgba(255,215,0,0.5);
-
-    border-radius:10px;
-
-    background:rgba(255,255,255,0.08);
-
-    color:white;
-
-    font-size:15px;
-}
-
-.form-card input::placeholder{
-    color:#ddd;
-}
-
-.form-card select option{
-    color:black;
-}
-
-.form-card input:focus,
-.form-card select:focus{
-    outline:none;
-
-    border-color:gold;
-
-    box-shadow:0 0 10px gold;
-}
-
-/* =========================
-   THANK YOU CARD
-========================= */
-
-.thankyou-card{
-    max-width:500px;
-
-    background:rgba(255,255,255,0.08);
-
-    backdrop-filter:blur(12px);
-
-    border:1px solid rgba(255,215,0,0.5);
-
-    border-radius:20px;
-
-    padding:30px;
-
-    color:white;
-
-    box-shadow:
-        0 0 20px rgba(255,215,0,0.2);
-}
-
-.thankyou-card h1{
-    color:#FFD700;
-    margin-bottom:20px;
-}
-
-.contact-section{
-    margin-top:25px;
-    text-align:left;
-}
-
-.contact-section h2{
-    color:#FFD700;
-    margin-bottom:10px;
-}
-
-.contact-section p{
-    margin-bottom:15px;
-    line-height:1.6;
-}
-
-/* =========================
-   BUTTONS
-========================= */
-
-.login-btn,
-.register-btn,
-.gold-btn{
-
-    display:inline-block;
-
-    text-decoration:none;
-
-    padding:15px 35px;
-
-    border:none;
-
-    border-radius:50px;
-
-    background:linear-gradient(
-        135deg,
-        #FFD700,
-        #caa400
-    );
-
-    color:black;
-
-    font-weight:bold;
-
-    cursor:pointer;
-
-    transition:0.4s;
-
-    box-shadow:
-        0 0 15px rgba(255,215,0,0.5);
-}
-
-.login-btn:hover,
-.register-btn:hover,
-.gold-btn:hover{
-
-    transform:scale(1.08);
-
-    box-shadow:
-        0 0 20px gold,
-        0 0 40px gold,
-        0 0 60px gold;
-}
-
-.btn-area{
-    margin-top:25px;
-}
-
-/* =========================
-   ANIMATIONS
-========================= */
-
-@keyframes glow{
-
-    from{
-        text-shadow:
-            0 0 10px gold,
-            0 0 20px gold;
-    }
-
-    to{
-        text-shadow:
-            0 0 20px gold,
-            0 0 40px gold,
-            0 0 80px gold;
-    }
-}
-
-@keyframes float{
-
-    0%,100%{
-        transform:translateY(0);
-    }
-
-    50%{
-        transform:translateY(-10px);
-    }
-}
-
-@keyframes fadeIn{
-
-    from{
-        opacity:0;
-        transform:translateY(30px);
-    }
-
-    to{
-        opacity:1;
-        transform:translateY(0);
-    }
-}
-
-/* =========================
-   RESPONSIVE
-========================= */
-
-@media(max-width:768px){
-
-    .title,
-    .college h1{
-        font-size:40px;
-    }
-
-    .events-section{
-        flex-direction:column;
-        align-items:center;
-    }
-
-    .card{
-        width:90%;
-    }
-}
-<h1>THANK YOU!</h1>
-
-<p>
-Your registration for Infinity Arena 2026
-has been submitted successfully.
-</p>
-
-<a href="index.html" class="gold-btn">
-    Back to Home
-</a>
-```
 
 ## OUTPUT:
-<img width="1319" height="989" alt="{8F31BC6F-7082-4E7A-94E3-161FEDD60069}" src="https://github.com/user-attachments/assets/10e5561b-60de-4e03-bd5d-87382344377c" />
-<img width="1803" height="994" alt="{B571CCA3-AC64-404F-B9B2-5F6F529A5977}" src="https://github.com/user-attachments/assets/2b6371a6-fef4-4a0c-949a-ff87950fe1fa" />
-<img width="1680" height="277" alt="{A3C6C1BE-DDC1-4FEA-8F98-6899B71EFD79}" src="https://github.com/user-attachments/assets/10d5dd68-435f-4141-85cb-cdae6863ea73" />
-
+![alt text](<Screenshot 2025-10-16 133921.png>) 
+![alt text](<Screenshot 2025-10-16 133621.png>) 
+![alt text](<Screenshot 2025-10-16 133741.png>) 
+![alt text](<Screenshot 2025-10-16 133825.png>) 
+![alt text](<Screenshot 2025-10-16 133856.png>)
 
 
 ## RESULT:
